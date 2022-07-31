@@ -41,6 +41,7 @@
         android:id="@+id/Dice"
         android:layout_width="158dp"
         android:layout_height="80dp"
+        android:onClick="onDice"
         android:text="Dice"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"

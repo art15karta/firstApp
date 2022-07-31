@@ -17,16 +17,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onCalc(View view) {
+        TextView Calculator = (TextView)findViewById(R.id.Calc);
+        Intent new_intent = new Intent(MainActivity.this, Calculator.class);
+        startActivity(new_intent); }
+
     public void onClick(View view) {
         TextView Click = (TextView)findViewById(R.id.Click);
-        Intent intent = new Intent(this, Clicker.class);
+        Intent intent = new Intent(MainActivity.this, Clicker.class);
         startActivity(intent);
     }
 
-    public void onCalc(View view) {
-        TextView Calculator = (TextView)findViewById(R.id.Calc);
-        Intent intent = new Intent(this, Calculator.class);
-        startActivity(intent);
+    public void onDice(View view) {
+        TextView Dice = (TextView)findViewById(R.id.Dice);
+        Intent dice_intent = new Intent(MainActivity.this, Dice.class);
+        startActivity(dice_intent);
     }
+
+
+
 
 }
