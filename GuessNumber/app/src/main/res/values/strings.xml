@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="quess">Exactly! You guessed!</string>
+    <string name="too_low">Too low!</string>
+    <string name="too_much">Too much!</string>
+    <string name="refresh">Refresh</string>
+    <string name="cheat">Cheat</string>
+    <string name="guess">Guess</string>
+    <string name="divide">Divide</string>
+    <string name="multy">Multy</string>
+</resources>
